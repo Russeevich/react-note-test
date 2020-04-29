@@ -6,12 +6,6 @@ import { NoteState } from './context/NoteState';
 
 const App = () =>{
 
-  
-
-  /*useEffect(() => {
-    AddNote('1234')
-    // eslint-disable-next-line
-  }, [])*/
 
     return (
       <NoteState>
