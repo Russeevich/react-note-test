@@ -1,0 +1,1 @@
+export const DATABASE_URL = 'https://test-firebase-react-10ec0.firebaseio.com'
