@@ -6,7 +6,6 @@ import { NoteState } from './context/NoteState';
 
 const App = () =>{
 
-
     return (
       <NoteState>
         <div>
