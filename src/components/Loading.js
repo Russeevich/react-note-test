@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Loading = (style) =>{
+export const Loading = () =>{
 
     return (
-        <div className="spinner-border" style={style.props} role="status">
+        <div className="spinner-border" role="status">
             <span className="sr-only">Loading...</span>
         </div>
     )

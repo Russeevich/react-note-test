@@ -14,11 +14,18 @@ export const Note = () =>{
 
         center:{
             textAlign: 'center'
+        },
+
+        Load:{
+            display: 'flex',
+            justifyContent: 'center'
         }
     }
 
     if(Load)
-        return <Loading props={style.center}/>
+        return <div style={style.Load}>
+                    <Loading/>
+                </div>
     if(!notes.length)
         return <h1 style={style.center}>Nothing</h1>
 
